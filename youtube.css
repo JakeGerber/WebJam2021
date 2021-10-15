@@ -1,0 +1,89 @@
+h1 {
+    font-size: 72px;
+  }
+  
+  h3 {
+    font-weight: 500;
+  }
+  
+  button {
+    flex-grow: 1;
+    font-size: 24px;
+    padding: 12px 24px;
+    margin: 0 8px;
+    background: none;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    color: rgb(0, 0, 0);
+    border-radius: 12px;
+  }
+  
+  button:hover {
+    background: rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+  }
+  
+  button.selected {
+    border-color: rgb(247, 145, 116);
+    background: rgba(247, 145, 116, 0.1);
+  }
+  
+  button.correct {
+    border-color: rgb(107, 217, 98);
+    background: rgba(107, 217, 98, 0.1);
+  }
+  
+  button.incorrect {
+    border-color: rgb(230, 93, 81);
+    background: rgba(230, 93, 81, 0.1);
+  }
+  
+  .header {
+    text-align: center;
+    font-family: 'Londrina Solid', sans-serif;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 64px;
+  }
+  
+  .header * {
+    margin: 0;
+  }
+  
+  .video1 {
+    width: 74%;
+    float: left;  
+  
+  }
+  .video2 {
+    width: 74%;
+    float: right;
+  }
+  
+  .Question {
+    margin-bottom: 65px;
+    margin-top: 80px;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .results {
+    text-align: center;
+  }
+
+  .title1 {
+    margin-left: 25%;
+    float: right;
+    font-size: 20px;
+  }
+
+  .title2 {
+    margin-left: 50%;
+    float: right;
+    font-size: 20px;
+  }
+
+  .buttoncss{
+    text-align:center
+  }
