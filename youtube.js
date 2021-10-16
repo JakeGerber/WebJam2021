@@ -4,7 +4,9 @@ import './youtube.css';
 
 const YT_PLAYLIST = "https://www.googleapis.com/youtube/v3/playlistItems"
 const YT_STATS = "https://www.googleapis.com/youtube/v3/videos"
-const YT_KEY = "AIzaSyAU3ALVRvWxo0WSJtSxfWO0KnZPgVuS3vc"
+
+//insert your own API Key here.
+const YT_KEY = ""
 
 var selected = false
 var viewsCompare = []
